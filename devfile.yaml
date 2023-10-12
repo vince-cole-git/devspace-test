@@ -12,7 +12,7 @@ components:
       mountSources: true
       env:
         - name: KUBEDOCK_ENABLED
-          value: true
+          value: "true"
 
   - name: venv
     volume:
