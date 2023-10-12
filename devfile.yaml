@@ -10,6 +10,9 @@ components:
           path: /home/user/.venv
       memoryLimit: 512Mi
       mountSources: true
+      env:
+        - name: KUBEDOCK_ENABLED
+          value: true
 
   - name: venv
     volume:
